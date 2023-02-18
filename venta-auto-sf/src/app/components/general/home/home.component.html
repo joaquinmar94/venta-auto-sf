@@ -1,0 +1,19 @@
+<div class="section-navbar">
+    <div class="section-logo"></div>
+    <div class="sections">
+        <span class="section">Nosotros</span>
+        <span class="section">Contacto</span>
+        <span class="section">Comprar</span>
+        <span class="section">Vender</span>
+    </div>
+</div>
+<div class="container">
+    <ng-container *ngIf="!cardSelected">
+        <div class="card-post-car" (click)="handleSlectedCard(CardTypeEnum.Post)">
+            <div class="section-span-post-car">
+                <span class="span-post-car">Publicar Auto</span>
+            </div>
+        </div>
+        <div class="card"></div>
+    </ng-container>
+</div>

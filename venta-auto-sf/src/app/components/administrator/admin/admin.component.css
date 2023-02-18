@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.section-navbar{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+}

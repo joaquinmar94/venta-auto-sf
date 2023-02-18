@@ -1,0 +1,8 @@
+<div class="section-navbar">
+    
+</div>
+<div class="container">
+    <ng-container *ngIf="!isLogged">
+        <app-login (logged)="handleLogin($event)"></app-login>
+    </ng-container>
+</div>
